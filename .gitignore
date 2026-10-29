@@ -1,0 +1,22 @@
+# --- SECRETS: never commit or ship these ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Local/test ---
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# --- Recovered/decrypted output ---
+*_recovered.py
+*_recovered.zip

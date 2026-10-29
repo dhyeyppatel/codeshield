@@ -1,0 +1,7 @@
+aiogram>=3.13.0
+cryptography>=43.0.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+requests>=2.32.3
+python-dotenv>=1.0.1
+urllib3>=2.2.0
